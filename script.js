@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarMenu = document.getElementById('navbar-menu');
     const navbarLinks = document.querySelectorAll('.navbar-link');
 
+    // Guard clause: Check if required elements exist
+    if (!navbarToggle || !navbarMenu) {
+        console.error('Navbar elements not found');
+        return;
+    }
+
     // Toggle mobile menu when hamburger button is clicked
     navbarToggle.addEventListener('click', function() {
         navbarMenu.classList.toggle('active');
