@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="#home">MyWebsite</a>
+            </div>
+            <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+                <li class="navbar-item"><a href="#services" class="navbar-link">Services</a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="home" class="section">
+            <h1>Welcome to Mobile Responsive Navbar</h1>
+            <p>This is a simple mobile responsive navbar built with HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>This navbar demonstrates mobile-first responsive design with a hamburger menu for smaller screens.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <p>The navigation menu collapses into a hamburger icon on mobile devices.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Try resizing your browser window to see the responsive behavior in action!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
