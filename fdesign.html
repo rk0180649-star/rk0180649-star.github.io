@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!--style-->
+<link rel="stylesheet" href="style.css">
+
+<title>Rupesh Kumar | Web Developer</title>
+</head>
+<body id="page3">
+    <!--main container start-->
+  <div id="main">
+        <!--universal padding-->
+        <div class="uni-padding"></div>
+        <!--navbar header section-->
+        <div id="header-section" class="uni-padding">
+            <div class="logo">
+                <h1 class="decored">R</h1>
+                <p> Rupesh kumar</p>
+            </div>
+            <div class="navbar">
+                <nav id="navbar-mobile"> 
+                <ul>
+                                     <!--mobile-btn-->
+           <li id="mobile-crose"><a href="javascript:void(0)"
+           onclick="closeMenu()"><i class="fa-brands fa-close"></i></a></li>
+
+                <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                <li><a href="#skill-section" onclick="closeMenu()">skill</a></li>
+                <li><a href="#contact-section" onclick="closeMenu()">Contact</a></li>
+                <li><a href="fdesign.html" onclick="closeMenu()">Figma</a></li>
+                <li><a href="wdesing.html" onclick="closeMenu()">Web Design</a></li>
+                </ul>
+               </nav>
+                     <!--mobile menu buttom-->
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+            </div>
+        </div>
+        <div id="head-dert">
+            <h1> Figma Design Screen short Image</h1>
+            <a href="index.html">Back to Home</a>
+        </div>
+        <div id="design" class="uni-padding">
+             <div class="slide">
+                <img src="/images/figma3.webp">
+                <div class="caption">1</div>
+            </div>
+            <div class="slide">
+                <img src="/images/figma4.webp">
+                <div class="caption">2</div>
+            </div>
+            <div class="slide">
+                <img src="/images/figma5.webp">
+                <div class="caption">3</div>
+            </div>
+             <div class="slide">
+                <img src="/images/figma6.webp">
+                <div class="caption">4</div>
+            </div>
+             <div class="slide">
+                <img src="/images/figma7.webp">
+                <div class="caption">5</div>
+            </div>
+             <div class="slide">
+                <img src="/images/figma1.webp">
+                <div class="caption">6</div>
+            </div>
+             <div class="slide">
+                <img src="/images/figma2.webp">
+                <div class="caption">7</div>
+            </div>
+            <div class="arrodiv">
+            <div class="arrow prew" onclick="controler(-1)">&#10094;</div>
+             <div class="arrow next" onclick="controler(1)">&#10095;</div>
+            </div>
+        </div>
+
+        <!--footer section -->
+        <div id="footr">
+            <p>Copyright @ 2026 Rupesh kumar | All Rights Reserved</p>
+            <div class="colo-foot">
+     <a href="https://wa.me/916201442285"><i class="fa-brands fa-whatsapp"></i></a>
+     <a href="https://x.com/Rupeshkuma54634"><i class="fa-brands fa-square-x-twitter"></i></a>
+     <a href="https://instagram.com/rupesh620144"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+  </div>
+
+ <!--java script linked here-->
+<script src="script.js"></script>
+</body>
+</html>

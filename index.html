@@ -4,13 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--faveicon-->
-<link rel="icon" type="image/png" href="favicon.ico" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="favicon.ico" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico" />
-<link rel="manifest" href="favicon.ico" />
-
 <!--font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,9 +40,10 @@
            onclick="closeMenu()"><i class="fa-brands fa-close"></i></a></li>
 
                 <li><a href="#hero-section" onclick="closeMenu()">Home</a></li>
-                <li><a href="#skill-section" onclick="closeMenu()">skill</a></li>
-                <li><a href="#project-section" onclick="closeMenu()">Project</a></li>
+                <li><a href="#skill-section" onclick="closeMenu()">Skills</a></li>
                 <li><a href="#contact-section" onclick="closeMenu()">Contact</a></li>
+                <li><a href="fdesign.html" onclick="closeMenu()">Figma</a></li>
+                <li><a href="wdesing.html" onclick="closeMenu()">Web Design</a></li>
                 </ul>
                </nav>
                      <!--mobile menu buttom-->
@@ -57,15 +51,40 @@
             </div>
         </div>
         <!--hero section-->
-        <div id="hero-section" class="uni-padding">
-            <div class="section50">
-                <h1>I build simple,<br> mobile-friendly websites<br> for small businesses.</h1>
-                <a href="https://wa.me/916201442285"> Contact on Whatsapp</a>
+        <div id="hero-section">
+          <div class="uni-padding">
+            <div class="hero">
+              <h1>Hi, I'm<br>Rupesh Kumar</h1>
+                <p>Creative Designer & Developer</p>
             </div>
-            <div class="section50">
-                <img src="/images/rightsideimages.jpeg">
+            <div class="hero-botom">
+             <p class="respo"><a href="https://wa.me/916201442285" class="btnnn"> Contact on Whatsapp</a></p>
+              <p class="respo"><a href="fdesign.html" class="btnnn"> View My figma Design</a></p>
+              <p class="respo"><a href="wdesing.html" class="btnnn"> view My web Design</a></p>
             </div>
-        </div>
+            <div class="services">
+              <span><i class="fa-solid fa-pen-nib"></i> UI/UX Design</span>
+              <span><i class="fa-solid fa-code"></i> Frontend Development</span>
+             <span><i class="fa-solid fa-server"></i> Backend Development</span>
+             <span><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span>
+            <span><i class="fa-solid fa-gauge-high"></i> Website Optimization</span>
+          </div>
+            <div class="skills-icons">
+              <p class="icon-ps">Ps</p>
+              <p class="icon-figma">Figma</p>
+              <p class="icon-code">&lt;/&gt;</p> 
+            </div>
+          </div>
+          </div>
+   <!--background color change section-->
+          <div id="backcolor" class="uni-padding">
+            <p>Background color Change</p>
+            <span class="btn" id="white" onclick="ChangeBG('#f3f4f6')"></span>
+            <span class="btn" id="black" onclick="ChangeBG('#fff1e6')"></span>
+            <span class="btn" id="pink" onclick="ChangeBG('#dbeafe')"></span>
+            <span class="btn" id="purple" onclick="ChangeBG('#d1fae5')"></span>
+            <span class="btn" id="yellow" onclick="ChangeBG('#faf3e0')"></span>
+          </div>
         <!--skills section-->
         <div id="skill-section" class="uni-padding">
             <h1>Skills</h1>
@@ -98,64 +117,10 @@
               <div  class="section20">
                 <div class="back-color">
                 <i class="fa-brands fa-js-square fa-3x" style="color:#F7DF1E"></i>
-                <p>learning</p>
+                <p>Javascript</p>
                 </div>
               </div>
            </div>
-        </div>
-        <!--project section-->
-        <div id="project-section" class="uni-padding">
-          <h1>projects</h1>
-          <div class="project">
-            <div class="second-section50">
-              <div class="project-decor">
-                <img src="/images/project1.jpeg">
-                <h3>Creative Agency website</h3>
-                <p>HTML,Css, JavaScript</p>
-                <p>Landing page for a creative agency with smooth layout and call-to-action sections</p>
-              </div>
-            </div>
-            <div class="second-section50">
-              <div  class="project-decor">
-                <img src="/images/project2.jpeg">
-                <h3>Pet Care Website</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>Veterinary clinlic website width engaging hero section and service highlights</p>
-              </div>
-            </div>
-            <div class="second-section50">
-              <div  class="project-decor">
-                <img src="/images/project3.jpeg">
-                <h3>Travel Landing Page</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>Modern travel website UI with responsive layout and clean design</p>
-              </div>
-            </div>
-            <div class="second-section50">
-              <div  class="project-decor">
-                <img src="/images/project4.jpeg">
-                <h3>Newsletter Subscription Page</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>Email subscription section with clean UI and interactive form.</p>
-              </div>
-            </div>
-            <div class="second-section50">
-              <div  class="project-decor">
-                <img src="/images/project5.jpeg">
-                <h3>Charity Organization Website</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>Simple and user-friendly design focused on social awareness and donations</p>
-              </div>
-            </div>
-               <div class="second-section50">
-              <div  class="project-decor">
-                <img src="/images/project6.jpeg">
-                <h3>Charity Organization Website</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>Simple and user-friendly design focused on social awareness and donations</p>
-              </div>
-            </div>
-          </div>
         </div>
         <!--contact section-->
         <div id="contact-section" class="uni-padding">
@@ -177,7 +142,7 @@
             <div class="third-section50">
               <form action="mailto:rk0180649@gmail.com" method="post" enctype="text/plain">
               <input type="text" name="name" placeholder="Your Name" required>
-              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="email" name="email" placeholder="Your Email" required> 
               <input type="text" name="subject" placeholder="Subject">
               <textarea name="message" placeholder="Your Message"></textarea>
               <button type="submit">Send Message</button>
@@ -228,10 +193,8 @@
      <a href="https://x.com/Rupeshkuma54634"><i class="fa-brands fa-square-x-twitter"></i></a>
      <a href="https://instagram.com/rupesh620144"><i class="fa-brands fa-square-instagram"></i></a>
    </div>
-  
   </div>
   <!--java script linked here-->
 <script src="script.js"></script>
- </div>
 </body>
 </html>
