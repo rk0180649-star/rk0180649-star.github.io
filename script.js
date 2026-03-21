@@ -1,9 +1,9 @@
 function toggleMenu(){
-    document.getElementById("navbar-mobile").style.left="0px"
+    document.getElementById("navbar-mobile").style.left="0%"
 }
 
 function closeMenu(){
-    document.getElementById("navbar-mobile").style.left="-300px"
+    document.getElementById("navbar-mobile").style.left="-100%"
 }
 
 function ChangeBG(color){
