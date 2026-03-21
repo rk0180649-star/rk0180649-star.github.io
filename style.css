@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     color: #ffffff;
 }
 .decored{
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5{
 }
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .navbar ul{
     display: flex;
@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5{
 }
 .navbar ul li{
     list-style-type: none;
-    padding-right: 30px; 
+    margin: 20px;   
 }
 .navbar ul li a{
     text-decoration: none;
@@ -75,10 +75,10 @@ h1,h2,h3,h4,h5{
     color: #ffffff;
     font-size: 2.5rem;
 }
-
 .hero p{
     color: #ffffff;
     padding: 0 0 20px 0;
+    padding: 0;
 }
 .hero-botom{
     display: flex;
@@ -88,13 +88,12 @@ h1,h2,h3,h4,h5{
     background-color: #0a192f;
     border: 1px solid red;
     color: #ffffff;
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 0 0 5px 0;
     margin-right: 20px;
 }
-
 .services{
     margin-top: 3%;
     display: flex;
@@ -145,7 +144,6 @@ h1,h2,h3,h4,h5{
     align-items: center;
     margin-right: 20px; 
 }
-
 /*background color chnage bottom*/
 .btn{
     width: 20px;
@@ -156,25 +154,19 @@ h1,h2,h3,h4,h5{
 }
 #white{
     background-color: #f3f4f6;
-
 }
 #black{
     background-color: #fff1e6;       ;
-
 }
 #pink{
     background-color: #dbeafe;
-
 }
 #purple{
     background-color: #d1fae5;
-
 }
 #yellow{
     background-color:#faf3e0;
-
 }
-
 /* skills section*/
 #skill-section{
     padding-top: 1%
@@ -201,6 +193,66 @@ h1,h2,h3,h4,h5{
     padding-bottom: 10%;
     border-radius: 10px;
 }
+/*services section*/
+#service-section{
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding: 0 5%;
+}
+.card-service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.card-box{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    margin: 20px;
+    padding-bottom: 5%;
+}
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+.martop{
+    margin-top: 15px;
+}
+.martop p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+}
+.tags p{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: #0a192f;
+    border: 1px solid red;
+    font-weight: bold;
+}
+.fa-screwdriver-wrench{
+    color: green;
+}
+.fa-code{
+    color: blue;
+}
+.fa-laptop{
+    color: purple;
+}
+.fa-tablet-alt{
+    color: purple;
+}
+.fa-mobile-alt{
+    color: purple;
+}
 /* contact section */
 #contact-section{
     margin-top: 5%;
@@ -214,7 +266,7 @@ h1,h2,h3,h4,h5{
     padding-bottom: 5%;
 }
 .contact h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 100%;
     text-align: center;
     padding: 0;
@@ -346,7 +398,6 @@ h1,h2,h3,h4,h5{
 #lin-ico i{
     color: #0f172a;
 }
-
 /* web desing page page 2*/
 #bbchnagecolo{
     background-color: #dbeafe;
@@ -380,7 +431,6 @@ h1,h2,h3,h4,h5{
     justify-content: space-around;
     margin-top: 1%;
 }
-
 .arrow{
     cursor: pointer;
     font-size: 20px;
@@ -406,23 +456,20 @@ h1,h2,h3,h4,h5{
     font-family: 15px;
     margin-left: 10px;
 }
-
 /*page 3 */
 #page3{
     background-color: #d1fae5;
 }
-
-
 /*mobile btn* bottom*/
 #navbar-mobile ul #mobile-crose, .hamburger{
     display: none;
 }
-@media (max-width: 500px){
+@media (max-width: 768px){
 #navbar-mobile{
     position: fixed;
     top: 0;
-    width: 300px;
-    left: -300px;
+    width: 100%;
+    left: -100%;
     height: 100vh;
     background-color: #0f172a;
     transition: left 0.6s ease;
@@ -442,38 +489,41 @@ h1,h2,h3,h4,h5{
 #navbar-mobile ul li a {
         display: block; 
         color: white;     
-        padding: 20px 20px;   
-        font-size: 18px;
+        padding: 5px 10px;   
+        font-size: 20px;
 }
 #mobile-crose {
         border-bottom: none !important; 
         text-align: right;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
 }
         .hamburger {
         cursor: pointer;
         font-size: 24px;
         margin-left: 20%; 
         color: white;
+        font-size: 40px;
 }
    #navbar-mobile ul #mobile-crose, .hamburger{
   display: block;
 }
 }
-
 /*ipad responsive*/
 @media screen and (max-width: 768px){
-    .navbar{
-    display: flex;
-    justify-content: left;
-    padding-right: 15px;
-}
-    .navbar ul li{
-    padding-right: 15px; 
-}
     #hero-section{
-    height: 53vh; 
+    background-image: url(/images/ipad.webp);
+    width: 100%;
+    height: 58vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
     padding-top: 5%;
+}
+.card-service{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   
 }
 /*page 2 webdesing section*/
 #head-dert{
@@ -503,11 +553,31 @@ h1,h2,h3,h4,h5{
     justify-content:left;
 }
     .navbar ul li{
-    padding-right: 20px; 
-}
-    #hero-section{
-    height: 48vh;
+    margin: 10px;
+    }
+
+
+#hero-section{
+    background-image: url(/images/ipad.webp);
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
     padding-top: 5%;
+}
+.card-service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.martop p{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+.card-box{
+    margin: 5px;
 }
 /*page 2 webdesing section*/
 #head-dert{
@@ -536,7 +606,7 @@ h1,h2,h3,h4,h5{
 #hero-section{
     background-image: url(/images//mmmm.webp);
     width: 100%;
-    height: 108vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -556,15 +626,13 @@ h1,h2,h3,h4,h5{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.hero-botom .respo{
-    width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    text-align: center;
-}
 .hero-botom a{
-    margin: 0px;
+    font-size: 10px;
+    margin: 5px;
+}
+.services{
+    margin-top: 2%;
+    gap: 5px;
 }
 span{
     width: 100%;
@@ -576,7 +644,6 @@ span{
     justify-content: center;
     margin-top: 2%;
 }
-
 /*background change color section*/
 #backcolor{
     text-align: center;
@@ -592,6 +659,10 @@ span{
 }
 .back-color{
     width: 100%;
+}
+.card-service{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 .second-section50{
     width: 100%;
@@ -616,7 +687,6 @@ span{
     font-size: 1.5rem;
     text-align: center;
 }
-
 /*page 2 web desing page responsive*/
 #head-dert{
     padding-top: 22%;
