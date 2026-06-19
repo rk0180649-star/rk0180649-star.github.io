@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c317e6ee.css",
+    "main.js": "/static/js/main.aaaacf34.js",
+    "static/media/figma2.webp": "/static/media/figma2.93f399a36eeb4d1d1633.webp",
+    "static/media/figma1.webp": "/static/media/figma1.2fcb1e28ee3a1464b59b.webp",
+    "static/media/ipad.webp": "/static/media/ipad.918ab0b70096a2f7d0ec.webp",
+    "static/media/mmmm.webp": "/static/media/mmmm.bbdd1a86059f759447c3.webp",
+    "static/media/jjjjd.webp": "/static/media/jjjjd.80b256d231357ac58aff.webp",
+    "static/media/img2w.webp": "/static/media/img2w.c06f6a733b0e1d3cad24.webp",
+    "static/media/img2.webp": "/static/media/img2.c4e34ad5250f2cda2858.webp",
+    "static/media/figma6.webp": "/static/media/figma6.d7006f8fb6630f3db005.webp",
+    "static/media/img6w.webp": "/static/media/img6w.3447030531d115d81d73.webp",
+    "static/media/figma4.webp": "/static/media/figma4.00b06b42848a433a78e3.webp",
+    "static/media/img5d.webp": "/static/media/img5d.ef9cf2f08bddd9540494.webp",
+    "static/media/figma3.webp": "/static/media/figma3.bfa76fcfcc248f68d07b.webp",
+    "static/media/img4d.webp": "/static/media/img4d.6b48df88837afe2c5b36.webp",
+    "static/media/figma5.webp": "/static/media/figma5.1cda803c3fa1e2234446.webp",
+    "static/media/figma7.webp": "/static/media/figma7.7ad762d3a0428056fc93.webp",
+    "static/media/img1w.webp": "/static/media/img1w.80d40744c345ac27ea2a.webp",
+    "static/media/img7w.webp": "/static/media/img7w.3a130136805125c3c3fa.webp",
+    "index.html": "/index.html",
+    "main.c317e6ee.css.map": "/static/css/main.c317e6ee.css.map",
+    "main.aaaacf34.js.map": "/static/js/main.aaaacf34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c317e6ee.css",
+    "static/js/main.aaaacf34.js"
+  ]
+}
